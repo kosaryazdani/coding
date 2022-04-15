@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #8d008d;
+}
+h1 a {
+  color: #613dff;
+  transition: 0.5s;
+}

@@ -1,0 +1,31 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: $f;
+  align-items: $center;
+  flex-direction: $column;
+}
+
+.title {
+  align-items: $center;
+  background: $warning;
+  font-size: 5rem;
+}
+.btn {
+  border: $btn-border;
+  border-radius: $btn-radios;
+  background: $primery;
+  padding: $p1;
+  margin: $m1;
+  cursor: $pointer;
+  transition: $delay;
+}
+.btn:hover {
+  background: $danger;
+}

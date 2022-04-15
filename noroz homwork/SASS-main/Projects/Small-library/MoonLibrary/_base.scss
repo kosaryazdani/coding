@@ -1,0 +1,37 @@
+@use "sass:math";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.p1 {
+  padding: $p1;
+}
+.p2 {
+  padding: $p1;
+}
+.m1 {
+  padding: $m1;
+}
+.m2 {
+  padding: $m2;
+}
+
+.bo-r {
+  border-radius: math.div($btn-radios, 3);
+}

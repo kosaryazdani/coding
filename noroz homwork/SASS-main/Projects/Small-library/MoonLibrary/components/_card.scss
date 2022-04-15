@@ -1,0 +1,28 @@
+@use "sass:math";
+
+.card {
+  display: flex;
+  flex-direction: $flex-column;
+  padding: $p1;
+  margin: $m1;
+  border: $btn-border;
+  border-radius: math.div($btn-radios, 3.5);
+  box-shadow: $b-shadow;
+  width: 10rem;
+  .card-title {
+    font-size: $f-size-xl;
+    text-align: center;
+    text-shadow: $t-shadow;
+  }
+  .card-body {
+    padding: $p1;
+    text-align: center;
+    color: map-get($colors, "magenta");
+    a {
+      color: green;
+    }
+  }
+}
+
+@debug "hi mr.hossein";
+@debug math.max(10px, 40px, 85px, 58px);

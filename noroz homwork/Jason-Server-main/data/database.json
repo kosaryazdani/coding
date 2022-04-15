@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet libero, in feugiat ipsum. Praesent hendrerit, mauris aliquam ultricies aliquet, nisl ante porttitor magna, quis tristique felis ligula in mi. Aliquam vel dui sed purus tempor consequat vitae vitae nibh. Vivamus tristique ullamcorper aliquam. Integer dapibus dolor ac aliquet finibus. Aliquam bibendum turpis non feugiat congue. Curabitur porttitor augue in consectetur commodo. Nulla consequat risus non tortor faucibus, eu facilisis lacus maximus.",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "How to be a Net Ninja",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet libero, in feugiat ipsum. Praesent hendrerit, mauris aliquam ultricies aliquet, nisl ante porttitor magna, quis tristique felis ligula in mi. Aliquam vel dui sed purus tempor consequat vitae vitae nibh. Vivamus tristique ullamcorper aliquam. Integer dapibus dolor ac aliquet finibus. Aliquam bibendum turpis non feugiat congue. Curabitur porttitor augue in consectetur commodo. Nulla consequat risus non tortor faucibus, eu facilisis lacus maximus.",
+      "likes": 50
+    },
+    {
+      "id": 3,
+      "title": "New Vue course coming soon!",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et aliquet libero, in feugiat ipsum. Praesent hendrerit, mauris aliquam ultricies aliquet, nisl ante porttitor magna, quis tristique felis ligula in mi. Aliquam vel dui sed purus tempor consequat vitae vitae nibh. Vivamus tristique ullamcorper aliquam. Integer dapibus dolor ac aliquet finibus. Aliquam bibendum turpis non feugiat congue. Curabitur porttitor augue in consectetur commodo. Nulla consequat risus non tortor faucibus, eu facilisis lacus maximus.",
+      "likes": 20
+    }
+  ],
+  "polls":[
+      {
+        "id": 1,
+        "question": "Do you prefer Vue or React?",
+        "answerA": "Vue",
+        "answerB": "React"
+      }
+  ]
+}

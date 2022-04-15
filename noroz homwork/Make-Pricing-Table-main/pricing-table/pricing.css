@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(196, 138, 223);
+    font-family:'Poppins','sans-serif';
+}
+header{
+    text-align: center;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.option{
+    background-color: rgba(38,56,89,1);
+    width: 280px;
+    /* height: 150px; */
+    margin:10px 20px;
+    position: relative;
+    top: 90px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+.option p{
+  font-size: 17px;
+}
+
+.option h2 span{
+    font-size: 13px;
+}
+.option ul{
+    text-align: left;
+    margin-top: 50px;
+    list-style: none;
+}
+.option ul li{
+    margin-top: 15px;
+    color: #ddd;
+}
+.option ul li::before{
+    content: '\2022';
+    color: rgba(255,103,104,1);
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.addToCart-btn{
+    padding: 10px 25px;
+    margin-top: 25px;
+    border:1px solid rgba(255,103,104,1);
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    width: 85%;
+    transition:all 0.5s;
+}
+.addToCart-btn:hover{
+    background-color: rgba(255,103,104,1);
+    transform: scale(1.1);
+}

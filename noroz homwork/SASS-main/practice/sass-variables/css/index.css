@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  align-items: center;
+  background: #fbff00;
+  font-size: 5rem;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 1rem;
+  background: #0059ff;
+  padding: 1rem 5rem;
+  margin: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: red;
+}

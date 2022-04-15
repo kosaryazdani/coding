@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(71, 64, 64);
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+}
+.pop-up {
+  text-align: center;
+  position: relative;
+  top: -300px;
+  left: 35%;
+  width: 400px;
+  transform-origin: 10px 10px;
+  animation: drop 1s ease forwards
+            ,swing 2s 2s forwards;
+}
+.container {
+  background-color: #ddbea9;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  padding: 20px;
+}
+.ninja{
+    position: relative;
+    left: 9%;
+}
+input[type="email"]{
+    border-radius: 5px;
+    width: 250px;
+    padding: 5px;
+}
+button{
+     padding: 4.5px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    right: 89px;
+}
+.close{
+    font-size: 0.5em;
+    padding: 5px;
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute; 
+    left: 10px;
+    top: 10px;
+    width: 7px;
+}
+@keyframes drop{
+    0%{opacity:0;}
+    70%{ transform: translateY(500px);}
+    100%{transform: translateY(400px); opacity: 1;}
+}
+@keyframes swing{
+    0%{transform: translateY(400px) rotateZ(0deg); }
+    40%{transform: translateY(400px) rotateZ(80deg);}
+    70%{transform:translateY(400px) rotateZ(60deg);}
+    100%{transform:translateY(400px) rotateZ(62deg);}
+}

@@ -1,0 +1,28 @@
+
+.fill {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnqmBkfsHfb73gRJLYXEprUuBw9Mks9uJPew&usqp=CAU");
+  position: relative;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.hold {
+  border: solid 5px rgb(232, 218, 218);
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  border: solid 3px rgb(136, 135, 168);
+  background: white;
+}
+
+.hovered {
+  background: #be9595;
+  border-style: dashed;
+}
+.invisible{
+    display: none;
+}

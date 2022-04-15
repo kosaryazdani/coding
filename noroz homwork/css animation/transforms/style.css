@@ -1,0 +1,22 @@
+body {
+  background: lightblue;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+img {
+  transform: rotateZ(60deg) translateY(200px) scale(2);
+}
+
+/*
+ transform: traslate(200px)   => moves the element in X or Y axis or both
+            scale(2)          => makes the element bigger or smaller in X or Y axis or both
+            rotateZ(60deg)     => rotates the element in X or Y or Z axis 
+            comnining them: 
+            transform: rotateZ(60deg) traslate(200px) scale(2);
+*/

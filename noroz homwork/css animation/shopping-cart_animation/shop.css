@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    border-bottom: 1px solid #ADB5BD;
+}
+.shopicon{
+    background-color: transparent;
+    border: none;
+    font-size: 2.5rem;
+}
+.Tshirts{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+li{
+width: 33%;
+text-align: center;
+margin: 20px auto;
+}
+li button{
+    color: #fff;
+    background-color: #343A40;
+    padding: 5px;
+    border-radius: 7px;
+}
+li img{
+    width: 150px;
+}
+.zoom{
+    position: absolute;
+    top: 40px;
+    right: 50%;
+    width: 40px;
+    opacity: 0;
+    animation: zoom 2s ease forwards;
+}
+@keyframes zoom{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0; right: 40px;}
+}
